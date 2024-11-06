@@ -855,3 +855,72 @@ a:focus {
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
 
+/* Product Detail Page Styles */
+.product-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.product-detail-container .product-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.product-detail-container .product-info {
+  text-align: center;
+}
+
+.product-detail-container .product-description {
+  margin-top: 10px;
+  color: #666;
+  font-size: 16px;
+}
+
+.product-detail-container .price {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.product-detail-container .add-to-cart-btn {
+  padding: 10px 20px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-detail-container .add-to-cart-btn:hover {
+  background-color: #4cae4c;
+}
+
+/* New styles for image gallery */
+.img-box img {
+  width: 100%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.img-box:hover img {
+  transform: scale(1.05);
+}
+
+/* Button hover effects */
+.btn1, .btn2 {
+  transition: background-color 0.3s ease;
+}
+
+.btn1:hover {
+  background-color: #f0a500; /* Or any other color */
+}
+
+.btn2:hover {
+  background-color: #007bff; /* Or any other color */
+}
+
